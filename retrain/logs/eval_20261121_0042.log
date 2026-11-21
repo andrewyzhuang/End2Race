@@ -12,3 +12,62 @@
   220/288 done
   240/288 done
   260/288 done
+  280/288 done
+  288/288 done
+
+== overall
+  all                    expert   pass  51/96  collision  45 timeout   0 mean lap 0.73 lap time   64.9s  speed 5.61
+  all                    ppo      pass   8/96  collision   0 timeout  88 mean lap 0.36 lap time   86.5s  speed 0.82
+  all                    retrain  pass  17/96  collision  79 timeout   0 mean lap 0.56 lap time   68.2s  speed 5.34
+
+== by width (m)
+  1.7                    expert   pass  14/40  collision  26 timeout   0 mean lap 0.64 lap time   55.5s  speed 5.50
+  1.7                    ppo      pass   0/40  collision   0 timeout  40 mean lap 0.27 lap time    nans  speed 0.44
+  1.7                    retrain  pass   5/40  collision  35 timeout   0 mean lap 0.53 lap time   51.8s  speed 5.33
+  2.2                    expert   pass  37/56  collision  19 timeout   0 mean lap 0.80 lap time   68.5s  speed 5.69
+  2.2                    ppo      pass   8/56  collision   0 timeout  48 mean lap 0.42 lap time   86.5s  speed 1.10
+  2.2                    retrain  pass  12/56  collision  44 timeout   0 mean lap 0.57 lap time   75.1s  speed 5.35
+
+== by direction
+  ccw                    expert   pass  20/48  collision  28 timeout   0 mean lap 0.68 lap time   67.3s  speed 5.60
+  ccw                    ppo      pass   0/48  collision   0 timeout  48 mean lap 0.27 lap time    nans  speed 0.45
+  ccw                    retrain  pass  12/48  collision  36 timeout   0 mean lap 0.61 lap time   63.0s  speed 5.39
+  cw                     expert   pass  31/48  collision  17 timeout   0 mean lap 0.79 lap time   63.4s  speed 5.62
+  cw                     ppo      pass   8/48  collision   0 timeout  40 mean lap 0.45 lap time   86.5s  speed 1.20
+  cw                     retrain  pass   5/48  collision  43 timeout   0 mean lap 0.50 lap time   80.8s  speed 5.29
+
+== by delay (control steps)
+  0                      expert   pass  40/48  collision   8 timeout   0 mean lap 0.93 lap time   63.6s  speed 5.67
+  0                      ppo      pass   8/48  collision   0 timeout  40 mean lap 0.40 lap time   86.5s  speed 1.12
+  0                      retrain  pass  10/48  collision  38 timeout   0 mean lap 0.61 lap time   62.4s  speed 5.38
+  1                      expert   pass  11/48  collision  37 timeout   0 mean lap 0.54 lap time   69.6s  speed 5.55
+  1                      ppo      pass   0/48  collision   0 timeout  48 mean lap 0.31 lap time    nans  speed 0.53
+  1                      retrain  pass   7/48  collision  41 timeout   0 mean lap 0.50 lap time   76.6s  speed 5.30
+
+== by track
+  Austin                 expert   pass   8/16  collision   8 timeout   0 mean lap 0.68 lap time   72.8s  speed 5.65
+  Austin                 ppo      pass   0/16  collision   0 timeout  16 mean lap 0.17 lap time    nans  speed 0.29
+  Austin                 retrain  pass   0/16  collision  16 timeout   0 mean lap 0.30 lap time    nans  speed 5.25
+  Hockenheim             expert   pass   4/16  collision  12 timeout   0 mean lap 0.61 lap time   61.7s  speed 5.55
+  Hockenheim             ppo      pass   0/16  collision   0 timeout  16 mean lap 0.25 lap time    nans  speed 0.42
+  Hockenheim             retrain  pass   1/16  collision  15 timeout   0 mean lap 0.46 lap time   68.9s  speed 5.32
+  MoscowRaceway          expert   pass  14/32  collision  18 timeout   0 mean lap 0.65 lap time   53.4s  speed 5.46
+  MoscowRaceway          ppo      pass   4/32  collision   0 timeout  28 mean lap 0.31 lap time   85.7s  speed 0.76
+  MoscowRaceway          retrain  pass   6/32  collision  26 timeout   0 mean lap 0.53 lap time   50.9s  speed 5.33
+  Nuerburgring           expert   pass  25/32  collision   7 timeout   0 mean lap 0.91 lap time   69.3s  speed 5.78
+  Nuerburgring           ppo      pass   4/32  collision   0 timeout  28 mean lap 0.55 lap time   87.3s  speed 1.36
+  Nuerburgring           retrain  pass  10/32  collision  22 timeout   0 mean lap 0.75 lap time   78.6s  speed 5.41
+
+== not tested (no usable center lane)
+  Austin_w120 cw: center lane too tight / too close to wall
+  Austin_w120 ccw: center lane too tight / too close to wall
+  Austin_w170 cw: center lane too tight / too close to wall
+  Austin_w170 ccw: center lane too tight / too close to wall
+  Hockenheim_w120 cw: center lane too tight / too close to wall
+  Hockenheim_w120 ccw: center lane too tight / too close to wall
+  Hockenheim_w170 cw: center lane too tight / too close to wall
+  Hockenheim_w220 ccw: center lane too tight / too close to wall
+  MoscowRaceway_w120 cw: center lane too tight / too close to wall
+  MoscowRaceway_w120 ccw: center lane too tight / too close to wall
+  Nuerburgring_w120 cw: center lane too tight / too close to wall
+  Nuerburgring_w120 ccw: center lane too tight / too close to wall
