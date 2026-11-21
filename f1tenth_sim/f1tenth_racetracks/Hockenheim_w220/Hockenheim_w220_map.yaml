@@ -1,0 +1,6 @@
+image: Hockenheim_w220_map.png
+resolution: 0.06702000000000002
+origin: [-19.911213834397973, -50.87622999687854, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

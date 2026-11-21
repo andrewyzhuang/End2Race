@@ -7,7 +7,8 @@
 simulation:
   seed: 12345
   frequency_hz: 120
-  control_frequency_hz: 40
+  # retrain-v1: 40 -> 30 Hz to match the NeoRacer /scan rate and control loop (120 / 30 = 4 physics steps per control step)
+  control_frequency_hz: 30
   expert_planner_frequency_hz: 10
   ego_initial_speed_fraction: 0.5
 
@@ -36,34 +37,55 @@ track:
 # Geometry and limits used by planning, track generation, and evaluation.
 # Speeds are in m/s, dimensions in m, steering in radians, and mass in kg.
 # ----------------------------------------------------------------------------
+# retrain-v1: values from the NeoRacer spec (length 0.38, width 0.30, height 0.22,
+# wheelbase 0.28, wheel diameter 0.08, mass 3.0 kg, max steer 30 deg, max speed 6 m/s,
+# max steering rate 3.2 rad/s). Height and wheel diameter are not used by the single track model.
 vehicle:
-  steering_limit: 0.4189
-  maximum_speed: 7.5
-  length: 0.58
-  width: 0.31
-  mass: 3.362
+  steering_limit: 0.5236
+  maximum_speed: 6.0
+  length: 0.38
+  width: 0.30
+  mass: 3.0
   drag_coefficient: 0.0075
 
 # ----------------------------------------------------------------------------
 # Simulator dynamics
 # Physical model parameters and actuator limits used by the F1TENTH simulator.
 # ----------------------------------------------------------------------------
+# retrain-v1 changes (old values in comments):
+#   lf, lr: wheelbase 0.3302 -> 0.28. Front/rear split keeps the old ratio lf/(lf+lr) = 0.4808 (assumption, CG not measured).
+#   m: 3.74 -> 3.0 (spec). I: scaled by m * wheelbase^2 -> 0.04712 * (3.0/3.74) * (0.28/0.3302)^2 = 0.0272 (estimate, not measured).
+#   s_min/s_max: +-0.4189 -> +-0.5236 (30 deg). v_max: 20 -> 6.0. width/length: spec.
+#   mu, C_Sf, C_Sr, h, a_max, v_switch, v_min: unchanged (no measured value yet).
 dynamics:
   mu: 1.0489
   C_Sf: 4.718
   C_Sr: 5.4562
-  lf: 0.15875
-  lr: 0.17145
+  lf: 0.1346
+  lr: 0.1454
   h: 0.074
-  m: 3.74
-  I: 0.04712
-  s_min: -0.4189
-  s_max: 0.4189
+  m: 3.0
+  I: 0.0272
+  s_min: -0.5236
+  s_max: 0.5236
   sv_min: -3.2
   sv_max: 3.2
   v_switch: 7.319
   a_max: 9.51
   v_min: -5.0
-  v_max: 20.0
-  width: 0.31
-  length: 0.58
+  v_max: 6.0
+  width: 0.30
+  length: 0.38
+
+# ----------------------------------------------------------------------------
+# LiDAR (retrain-v1)
+# The NeoRacer LiDAR has 1440 beams over 360 deg, index 0 at the rear, counter clockwise
+# (same as this simulator). The rear 90 deg is blocked by the car body.
+#   max_range_m: ray tracing limit (was hard coded 30 m in laser_models.py).
+#   rear_occlusion_deg: total width of the blocked rear sector, centered on the rear.
+#   occluded_value_m: value written into the blocked sector.
+# ----------------------------------------------------------------------------
+lidar:
+  max_range_m: 10.0
+  rear_occlusion_deg: 90.0
+  occluded_value_m: 10.0

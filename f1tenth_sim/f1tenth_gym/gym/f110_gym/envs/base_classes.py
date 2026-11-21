@@ -65,7 +65,7 @@ class RaceCar(object):
     scan_angles = None
     side_distances = None
 
-    def __init__(self, params, seed, is_ego=False, time_step=0.01, num_beams=1080, fov=4.7, integrator=Integrator.Euler):
+    def __init__(self, params, seed, is_ego=False, time_step=0.01, num_beams=1080, fov=4.7, integrator=Integrator.Euler, max_range=30.0):
         """
         Init function
 
@@ -112,7 +112,8 @@ class RaceCar(object):
         # initialize scan sim
         if RaceCar.scan_simulator is None:
             self.scan_rng = np.random.default_rng(seed=self.seed)
-            RaceCar.scan_simulator = ScanSimulator2D(num_beams, fov)
+            # retrain-v1: max_range comes from f1tenth_sim/config.yaml (lidar.max_range_m)
+            RaceCar.scan_simulator = ScanSimulator2D(num_beams, fov, max_range=max_range)
 
             scan_ang_incr = RaceCar.scan_simulator.get_increment()
 
@@ -464,7 +465,7 @@ class Simulator(object):
 
     """
 
-    def __init__(self, params, num_agents, seed, num_beams=1440, fov=6.28, time_step=0.01, ego_idx=0, integrator=Integrator.Euler):
+    def __init__(self, params, num_agents, seed, num_beams=1440, fov=6.28, time_step=0.01, ego_idx=0, integrator=Integrator.Euler, max_range=30.0):
         """
         Init function
 
@@ -491,10 +492,10 @@ class Simulator(object):
         # initializing agents
         for i in range(self.num_agents):
             if i == ego_idx:
-                ego_car = RaceCar(params, self.seed, is_ego=True, num_beams=num_beams, fov=fov, time_step=self.time_step, integrator=integrator)
+                ego_car = RaceCar(params, self.seed, is_ego=True, num_beams=num_beams, fov=fov, time_step=self.time_step, integrator=integrator, max_range=max_range)
                 self.agents.append(ego_car)
             else:
-                agent = RaceCar(params, self.seed, is_ego=False, num_beams=num_beams, fov=fov, time_step=self.time_step, integrator=integrator)
+                agent = RaceCar(params, self.seed, is_ego=False, num_beams=num_beams, fov=fov, time_step=self.time_step, integrator=integrator, max_range=max_range)
                 self.agents.append(agent)
 
     def set_map(self, map_path, map_ext):

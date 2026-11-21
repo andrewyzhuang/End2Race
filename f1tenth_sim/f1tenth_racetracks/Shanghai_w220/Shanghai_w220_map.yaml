@@ -1,0 +1,6 @@
+image: Shanghai_w220_map.png
+resolution: 0.06505000000000001
+origin: [-75.79343468663652, -35.953580669761585, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

@@ -1,0 +1,6 @@
+image: Oschersleben_w120_map.png
+resolution: 0.02342727272727273
+origin: [-30.04172851997267, -18.315731260340538, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

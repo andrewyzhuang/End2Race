@@ -1,0 +1,6 @@
+image: Austin_w170_map.png
+resolution: 0.0625059090909091
+origin: [-16.42642438337619, -54.712172467675856, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

@@ -1,0 +1,3 @@
+step-by-step vs full sequence: max difference 9.54e-07
+Saved /home/kaipo/GRAD/MTL/Code/End2Race_Zhijie/checkpoint/export/end2race_retrain_v1_jit_fp32.pt (reload difference 0.0e+00), sample action [[0.0355101078748703, 2.9636502265930176]]
+Saved /home/kaipo/GRAD/MTL/Code/End2Race_Zhijie/checkpoint/export/end2race_retrain_v1_jit_fp16.pt, FP16 vs FP32 sample difference 7.6e-04

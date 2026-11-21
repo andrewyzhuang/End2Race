@@ -1,0 +1,6 @@
+image: Zandvoort_w120_map.png
+resolution: 0.027867272727272734
+origin: [-10.748042700618308, -31.583179376002665, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

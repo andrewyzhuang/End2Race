@@ -1,0 +1,6 @@
+image: Sochi_w220_map.png
+resolution: 0.08501000000000004
+origin: [-156.29705697778903, -120.87730224217704, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

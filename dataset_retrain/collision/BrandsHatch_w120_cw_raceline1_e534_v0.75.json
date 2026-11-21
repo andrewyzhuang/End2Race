@@ -1,0 +1,17 @@
+{
+  "variant": "BrandsHatch_w120",
+  "direction": "cw",
+  "raceline": "raceline1_cw",
+  "start_index": 534,
+  "speed_scale": 0.75,
+  "initial_speed_fraction": 0.8166440705290728,
+  "mu": 0.9964945632756802,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.0,
+  "lidar_dropout": 0.0,
+  "seed": 1893588976,
+  "name": "BrandsHatch_w120_cw_raceline1_e534_v0.75",
+  "steps": 130,
+  "collision": true,
+  "mean_speed_mps": 4.381
+}

@@ -1,0 +1,6 @@
+image: Nuerburgring_w220_map.png
+resolution: 0.07542000000000003
+origin: [-98.1132641692092, -106.53776182200406, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

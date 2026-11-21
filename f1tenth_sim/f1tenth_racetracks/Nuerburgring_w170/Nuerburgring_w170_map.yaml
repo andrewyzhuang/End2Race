@@ -1,0 +1,6 @@
+image: Nuerburgring_w170_map.png
+resolution: 0.058279090909090926
+origin: [-75.81479503984346, -82.32463413518494, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

@@ -1,0 +1,6 @@
+image: Sepang_w120_map.png
+resolution: 0.03242181818181819
+origin: [-36.08434275202348, -32.03958956469814, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

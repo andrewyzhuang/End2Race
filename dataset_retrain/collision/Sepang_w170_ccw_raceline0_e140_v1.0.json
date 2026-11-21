@@ -1,0 +1,17 @@
+{
+  "variant": "Sepang_w170",
+  "direction": "ccw",
+  "raceline": "raceline0_ccw",
+  "start_index": 140,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.6898859983667117,
+  "mu": 0.9634149255984524,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.025287936863136025,
+  "lidar_dropout": 0.014092141929383668,
+  "seed": 902786224,
+  "name": "Sepang_w170_ccw_raceline0_e140_v1.0",
+  "steps": 215,
+  "collision": true,
+  "mean_speed_mps": 5.067
+}

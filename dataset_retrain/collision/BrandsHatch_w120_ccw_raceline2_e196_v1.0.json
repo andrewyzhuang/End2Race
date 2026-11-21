@@ -1,0 +1,17 @@
+{
+  "variant": "BrandsHatch_w120",
+  "direction": "ccw",
+  "raceline": "raceline2_ccw",
+  "start_index": 196,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.0974922192832548,
+  "mu": 1.0796078124572215,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.0,
+  "lidar_dropout": 0.0,
+  "seed": 1395490875,
+  "name": "BrandsHatch_w120_ccw_raceline2_e196_v1.0",
+  "steps": 90,
+  "collision": true,
+  "mean_speed_mps": 4.999
+}

@@ -1,0 +1,6 @@
+image: Nuerburgring_w120_map.png
+resolution: 0.04113818181818183
+origin: [-53.51632591047774, -58.111506448365844, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

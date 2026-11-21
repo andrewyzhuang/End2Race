@@ -1,0 +1,17 @@
+{
+  "variant": "YasMarina_w220",
+  "direction": "cw",
+  "raceline": "raceline1_cw",
+  "start_index": 1928,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.9355270802359812,
+  "mu": 1.0292846871336205,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.0,
+  "lidar_dropout": 0.0,
+  "seed": 1796052880,
+  "name": "YasMarina_w220_cw_raceline1_e1928_v1.0",
+  "steps": 64,
+  "collision": true,
+  "mean_speed_mps": 4.744
+}

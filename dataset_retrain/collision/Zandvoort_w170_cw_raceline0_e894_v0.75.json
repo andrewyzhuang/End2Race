@@ -1,0 +1,17 @@
+{
+  "variant": "Zandvoort_w170",
+  "direction": "cw",
+  "raceline": "raceline0_cw",
+  "start_index": 894,
+  "speed_scale": 0.75,
+  "initial_speed_fraction": 0.5343078341610493,
+  "mu": 1.087683315603492,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.0105983345267726,
+  "lidar_dropout": 0.030129623508351456,
+  "seed": 1832317650,
+  "name": "Zandvoort_w170_cw_raceline0_e894_v0.75",
+  "steps": 100,
+  "collision": true,
+  "mean_speed_mps": 3.986
+}

@@ -70,10 +70,19 @@ def train_epoch(
 
 
 def main():
+    # retrain-v1: --retrain uses config.yaml retrain.train, retrain.dataset_dir and mini-batches.
+    # Without the flag the behavior is the same as before.
+    import argparse
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--retrain", action="store_true")
+    args = parser.parse_args()
+
     root = Path(__file__).resolve().parents[1]
     with (root / "config.yaml").open() as stream:
         config = yaml.safe_load(stream)
-    settings = config['imitation']
+    settings = config['retrain']['train'] if args.retrain else config['imitation']
+    dataset_dir = config['retrain']['dataset_dir'] if args.retrain else config['paths']['dataset_dir']
+    checkpoint_name = f"bc_retrain_{config['retrain']['version']}.pt" if args.retrain else "bc.pt"
     device = torch.device(config['runtime']['device'])
     if device.type != "cuda" or not torch.cuda.is_available():
         raise RuntimeError("Training requires CUDA.")
@@ -85,11 +94,13 @@ def main():
         f"learning_rate={settings['learning_rate']}, arguments={settings}"
     )
 
-    dataset = SequenceDataset(root / config['paths']['dataset_dir'] / "success")
+    dataset = SequenceDataset(root / dataset_dir / "success")
 
+    batch_size = settings.get('batch_size') or len(dataset)
     train_loader = DataLoader(
         dataset,
-        batch_size=len(dataset),
+        batch_size=batch_size,
+        shuffle=batch_size < len(dataset),
         num_workers=config['runtime']['workers'],
         pin_memory=True,
     )
@@ -110,7 +121,7 @@ def main():
         )
         print(f"Epoch {epoch}/{settings['num_epochs']}, loss: {loss:.5f}")
 
-    checkpoint_path = output_dir / "bc.pt"
+    checkpoint_path = output_dir / checkpoint_name
     torch.save(model.state_dict(), checkpoint_path)
     print(f"Saved {checkpoint_path}")
 

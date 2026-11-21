@@ -1,0 +1,6 @@
+image: Austin_w120_map.png
+resolution: 0.04412181818181819
+origin: [-11.5951230941479, -38.62035703600649, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

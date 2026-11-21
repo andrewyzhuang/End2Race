@@ -1,0 +1,6 @@
+image: BrandsHatch_w170_map.png
+resolution: 0.038675
+origin: [-30.466404236657635, -68.16097530496737, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

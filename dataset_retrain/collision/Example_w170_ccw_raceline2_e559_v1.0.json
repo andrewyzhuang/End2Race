@@ -1,0 +1,17 @@
+{
+  "variant": "Example_w170",
+  "direction": "ccw",
+  "raceline": "raceline2_ccw",
+  "start_index": 559,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.5053499984805024,
+  "mu": 0.953895297321743,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.003027700715247762,
+  "lidar_dropout": 0.03356561965087786,
+  "seed": 646826919,
+  "name": "Example_w170_ccw_raceline2_e559_v1.0",
+  "steps": 140,
+  "collision": true,
+  "mean_speed_mps": 4.775
+}

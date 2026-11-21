@@ -1,0 +1,6 @@
+image: Shanghai_w120_map.png
+resolution: 0.035481818181818184
+origin: [-41.3418734654381, -19.611044001688136, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

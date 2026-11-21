@@ -1,0 +1,17 @@
+{
+  "variant": "Oschersleben_w120",
+  "direction": "cw",
+  "raceline": "raceline1_cw",
+  "start_index": 515,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.1651875275028093,
+  "mu": 1.0521009931284337,
+  "action_delay_steps": 1,
+  "lidar_noise_std_m": 0.017584131276742087,
+  "lidar_dropout": 0.045734190531707415,
+  "seed": 753098008,
+  "name": "Oschersleben_w120_cw_raceline1_e515_v1.0",
+  "steps": 206,
+  "collision": true,
+  "mean_speed_mps": 4.664
+}

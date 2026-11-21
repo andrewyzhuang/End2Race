@@ -152,6 +152,11 @@ class F110Env(gym.Env):
             self.seed,
             time_step=self.timestep,
             integrator=self.integrator,
+            # retrain-v1: LiDAR range from config (old default 30 m if the lidar section is missing)
+            max_range=kwargs.get(
+                "lidar_max_range",
+                getattr(getattr(config, "lidar", None), "max_range_m", 30.0),
+            ),
         )
         self.sim.set_map(self.map_path, self.map_ext)
 

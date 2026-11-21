@@ -1,0 +1,17 @@
+{
+  "variant": "Sochi_w170",
+  "direction": "ccw",
+  "raceline": "raceline0_ccw",
+  "start_index": 133,
+  "speed_scale": 0.75,
+  "initial_speed_fraction": 0.606917019265444,
+  "mu": 1.0430284861698345,
+  "action_delay_steps": 0,
+  "lidar_noise_std_m": 0.0042054533396692975,
+  "lidar_dropout": 0.021755815862599854,
+  "seed": 465563225,
+  "name": "Sochi_w170_ccw_raceline0_e133_v0.75",
+  "steps": 183,
+  "collision": true,
+  "mean_speed_mps": 4.004
+}

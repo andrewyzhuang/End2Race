@@ -1,0 +1,6 @@
+image: YasMarina_w220_map.png
+resolution: 0.07314000000000002
+origin: [-63.66837433770883, -64.68282000152617, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

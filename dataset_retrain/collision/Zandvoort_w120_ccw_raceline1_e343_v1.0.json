@@ -1,0 +1,17 @@
+{
+  "variant": "Zandvoort_w120",
+  "direction": "ccw",
+  "raceline": "raceline1_ccw",
+  "start_index": 343,
+  "speed_scale": 1.0,
+  "initial_speed_fraction": 0.8867424417918176,
+  "mu": 0.975312791516453,
+  "action_delay_steps": 0,
+  "lidar_noise_std_m": 0.02513578199249225,
+  "lidar_dropout": 0.00034791459949947703,
+  "seed": 1039350396,
+  "name": "Zandvoort_w120_ccw_raceline1_e343_v1.0",
+  "steps": 42,
+  "collision": true,
+  "mean_speed_mps": 3.72
+}

@@ -1,0 +1,6 @@
+image: Shanghai_w170_map.png
+resolution: 0.0502659090909091
+origin: [-58.56765407603731, -27.78231233572486, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

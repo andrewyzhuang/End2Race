@@ -1,0 +1,2854 @@
+{
+  "variants": {
+    "Austin_w120": {
+      "variant": "Austin_w120",
+      "track": "Austin",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 225.86,
+              "laptime_s": 41.71,
+              "min_radius_m": 0.305,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": -0.15,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 227.13,
+              "laptime_s": 42.25,
+              "min_radius_m": 0.392,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.009,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 229.06,
+              "laptime_s": 42.36,
+              "min_radius_m": 0.461,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": -0.009,
+              "usable": false
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 225.68,
+              "laptime_s": 42.11,
+              "min_radius_m": 0.354,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.15,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 227.14,
+              "laptime_s": 42.24,
+              "min_radius_m": 0.443,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.035,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 229.0,
+              "laptime_s": 42.54,
+              "min_radius_m": 0.451,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.088,
+              "usable": false
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Austin_w170": {
+      "variant": "Austin_w170",
+      "track": "Austin",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 321.48,
+              "laptime_s": 57.18,
+              "min_radius_m": 0.377,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.038,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 323.35,
+              "laptime_s": 57.47,
+              "min_radius_m": 0.58,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.288,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 325.54,
+              "laptime_s": 57.81,
+              "min_radius_m": 0.531,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.175,
+              "usable": false
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 321.18,
+              "laptime_s": 57.32,
+              "min_radius_m": 0.487,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.013,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 323.38,
+              "laptime_s": 57.8,
+              "min_radius_m": 0.499,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.375,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 325.39,
+              "laptime_s": 57.81,
+              "min_radius_m": 0.644,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.125,
+              "usable": false
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Austin_w220": {
+      "variant": "Austin_w220",
+      "track": "Austin",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 416.3,
+              "laptime_s": 72.34,
+              "min_radius_m": 0.592,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.141,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 419.12,
+              "laptime_s": 72.79,
+              "min_radius_m": 0.699,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.594,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 421.67,
+              "laptime_s": 73.19,
+              "min_radius_m": 0.999,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.319,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 416.49,
+              "laptime_s": 72.51,
+              "min_radius_m": 0.446,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.189,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 419.06,
+              "laptime_s": 72.87,
+              "min_radius_m": 0.685,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.561,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 421.62,
+              "laptime_s": 73.21,
+              "min_radius_m": 0.778,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.367,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "BrandsHatch_w120": {
+      "variant": "BrandsHatch_w120",
+      "track": "BrandsHatch",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 192.77,
+              "laptime_s": 33.69,
+              "min_radius_m": 0.929,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.204
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 194.12,
+              "laptime_s": 33.75,
+              "min_radius_m": 1.16,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.461
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 195.42,
+              "laptime_s": 33.83,
+              "min_radius_m": 1.352,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.216
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 192.73,
+              "laptime_s": 33.52,
+              "min_radius_m": 0.799,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.188
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 194.08,
+              "laptime_s": 33.65,
+              "min_radius_m": 1.136,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.461
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 195.47,
+              "laptime_s": 33.97,
+              "min_radius_m": 1.229,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.232
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "BrandsHatch_w170": {
+      "variant": "BrandsHatch_w170",
+      "track": "BrandsHatch",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 273.25,
+              "laptime_s": 46.57,
+              "min_radius_m": 1.351,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.445
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 275.14,
+              "laptime_s": 46.62,
+              "min_radius_m": 1.832,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.738
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 277.17,
+              "laptime_s": 47.14,
+              "min_radius_m": 1.474,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.468
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 273.24,
+              "laptime_s": 46.39,
+              "min_radius_m": 1.508,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.445
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 275.18,
+              "laptime_s": 46.88,
+              "min_radius_m": 1.51,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.769
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 277.14,
+              "laptime_s": 47.02,
+              "min_radius_m": 1.531,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.468
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "BrandsHatch_w220": {
+      "variant": "BrandsHatch_w220",
+      "track": "BrandsHatch",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 353.67,
+              "laptime_s": 59.46,
+              "min_radius_m": 1.865,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.62
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 356.18,
+              "laptime_s": 59.87,
+              "min_radius_m": 2.281,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 1.02
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 358.77,
+              "laptime_s": 60.25,
+              "min_radius_m": 1.992,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.66
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 353.63,
+              "laptime_s": 59.52,
+              "min_radius_m": 1.611,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.65
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 356.21,
+              "laptime_s": 59.98,
+              "min_radius_m": 2.156,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 1.041
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 358.76,
+              "laptime_s": 60.43,
+              "min_radius_m": 1.974,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.65
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Example_w120": {
+      "variant": "Example_w120",
+      "track": "Example",
+      "target_width_m": 1.2,
+      "original_width_m": 2.407,
+      "scale": 0.49846,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 79.36,
+              "laptime_s": 15.88,
+              "min_radius_m": 0.598,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.086
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 80.98,
+              "laptime_s": 16.05,
+              "min_radius_m": 0.546,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.348
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 82.58,
+              "laptime_s": 16.35,
+              "min_radius_m": 0.674,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.006
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 79.59,
+              "laptime_s": 15.94,
+              "min_radius_m": 0.509,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.124
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 81.21,
+              "laptime_s": 16.12,
+              "min_radius_m": 0.439,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.423
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 82.63,
+              "laptime_s": 16.18,
+              "min_radius_m": 0.343,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.18
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Example_w170": {
+      "variant": "Example_w170",
+      "track": "Example",
+      "target_width_m": 1.7,
+      "original_width_m": 2.407,
+      "scale": 0.70615,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 113.3,
+              "laptime_s": 20.99,
+              "min_radius_m": 0.719,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.397
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 115.49,
+              "laptime_s": 21.42,
+              "min_radius_m": 0.728,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.749
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 117.48,
+              "laptime_s": 21.49,
+              "min_radius_m": 0.46,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.423
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 112.91,
+              "laptime_s": 20.89,
+              "min_radius_m": 0.909,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.335
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 115.26,
+              "laptime_s": 21.19,
+              "min_radius_m": 0.807,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.741
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 117.49,
+              "laptime_s": 21.5,
+              "min_radius_m": 0.998,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.326
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Example_w220": {
+      "variant": "Example_w220",
+      "track": "Example",
+      "target_width_m": 2.2,
+      "original_width_m": 2.407,
+      "scale": 0.91385,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 146.7,
+              "laptime_s": 26.13,
+              "min_radius_m": 0.891,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.592
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 149.57,
+              "laptime_s": 26.6,
+              "min_radius_m": 1.217,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 1.094
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 152.34,
+              "laptime_s": 26.92,
+              "min_radius_m": 0.806,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.593
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 146.67,
+              "laptime_s": 26.3,
+              "min_radius_m": 0.965,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.603
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 149.59,
+              "laptime_s": 26.57,
+              "min_radius_m": 1.116,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 1.094
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 152.24,
+              "laptime_s": 26.8,
+              "min_radius_m": 0.78,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.581
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Hockenheim_w120": {
+      "variant": "Hockenheim_w120",
+      "track": "Hockenheim",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 193.98,
+              "laptime_s": 35.3,
+              "min_radius_m": 0.124,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": -0.113,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 195.28,
+              "laptime_s": 35.46,
+              "min_radius_m": 0.314,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.033,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 196.68,
+              "laptime_s": 35.81,
+              "min_radius_m": 0.372,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.142,
+              "usable": false
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 193.98,
+              "laptime_s": 35.51,
+              "min_radius_m": 0.15,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.15,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 195.25,
+              "laptime_s": 35.59,
+              "min_radius_m": 0.565,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.106,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 196.7,
+              "laptime_s": 35.86,
+              "min_radius_m": 0.569,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.142,
+              "usable": false
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Hockenheim_w170": {
+      "variant": "Hockenheim_w170",
+      "track": "Hockenheim",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 275.18,
+              "laptime_s": 48.04,
+              "min_radius_m": 0.692,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": -0.005,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 277.22,
+              "laptime_s": 48.35,
+              "min_radius_m": 0.533,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.42,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 279.15,
+              "laptime_s": 48.7,
+              "min_radius_m": 0.771,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.305,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 275.26,
+              "laptime_s": 48.08,
+              "min_radius_m": 0.536,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.036,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 277.23,
+              "laptime_s": 48.31,
+              "min_radius_m": 0.726,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.44,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 279.12,
+              "laptime_s": 48.65,
+              "min_radius_m": 0.616,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.295,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Hockenheim_w220": {
+      "variant": "Hockenheim_w220",
+      "track": "Hockenheim",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 356.86,
+              "laptime_s": 61.33,
+              "min_radius_m": 0.534,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.292,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 359.2,
+              "laptime_s": 61.81,
+              "min_radius_m": 0.622,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.748,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 361.35,
+              "laptime_s": 61.77,
+              "min_radius_m": 0.978,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.466,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 356.71,
+              "laptime_s": 61.32,
+              "min_radius_m": 0.424,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.319,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 359.01,
+              "laptime_s": 61.31,
+              "min_radius_m": 0.554,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.654,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 361.49,
+              "laptime_s": 61.93,
+              "min_radius_m": 0.863,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.466,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "MoscowRaceway_w120": {
+      "variant": "MoscowRaceway_w120",
+      "track": "MoscowRaceway",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 173.34,
+              "laptime_s": 33.46,
+              "min_radius_m": 0.281,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.031,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 174.88,
+              "laptime_s": 33.78,
+              "min_radius_m": 0.378,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.224,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 175.9,
+              "laptime_s": 33.88,
+              "min_radius_m": 0.619,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.013,
+              "usable": false
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 173.06,
+              "laptime_s": 33.44,
+              "min_radius_m": 0.368,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.108,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 174.61,
+              "laptime_s": 33.72,
+              "min_radius_m": 0.364,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.194,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 175.84,
+              "laptime_s": 33.67,
+              "min_radius_m": 0.48,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.041,
+              "usable": false
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "MoscowRaceway_w170": {
+      "variant": "MoscowRaceway_w170",
+      "track": "MoscowRaceway",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 246.75,
+              "laptime_s": 45.01,
+              "min_radius_m": 0.41,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.269,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 248.27,
+              "laptime_s": 45.28,
+              "min_radius_m": 0.74,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.414,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 250.25,
+              "laptime_s": 45.56,
+              "min_radius_m": 0.643,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.261,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 246.26,
+              "laptime_s": 44.6,
+              "min_radius_m": 0.48,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.107,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 248.15,
+              "laptime_s": 44.87,
+              "min_radius_m": 0.636,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.449,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 249.98,
+              "laptime_s": 45.13,
+              "min_radius_m": 0.746,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.192,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "MoscowRaceway_w220": {
+      "variant": "MoscowRaceway_w220",
+      "track": "MoscowRaceway",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 319.11,
+              "laptime_s": 56.15,
+              "min_radius_m": 0.718,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.249,
+              "usable": true
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 321.72,
+              "laptime_s": 56.4,
+              "min_radius_m": 0.662,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.802,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 324.1,
+              "laptime_s": 56.6,
+              "min_radius_m": 0.993,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.459,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 319.36,
+              "laptime_s": 56.22,
+              "min_radius_m": 0.646,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.304,
+              "usable": true
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 321.84,
+              "laptime_s": 56.39,
+              "min_radius_m": 0.706,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.78,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 324.1,
+              "laptime_s": 56.84,
+              "min_radius_m": 1.212,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.404,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Nuerburgring_w120": {
+      "variant": "Nuerburgring_w120",
+      "track": "Nuerburgring",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 241.08,
+              "laptime_s": 43.63,
+              "min_radius_m": 0.582,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": -0.109,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 242.66,
+              "laptime_s": 43.87,
+              "min_radius_m": 0.375,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.327,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 244.19,
+              "laptime_s": 44.26,
+              "min_radius_m": 0.923,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.154,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 241.05,
+              "laptime_s": 43.61,
+              "min_radius_m": 0.529,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": -0.109,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 242.56,
+              "laptime_s": 43.9,
+              "min_radius_m": 0.465,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.245,
+              "usable": false
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 244.14,
+              "laptime_s": 44.12,
+              "min_radius_m": 0.695,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.171,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Nuerburgring_w170": {
+      "variant": "Nuerburgring_w170",
+      "track": "Nuerburgring",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 342.15,
+              "laptime_s": 59.32,
+              "min_radius_m": 0.484,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.153,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 344.18,
+              "laptime_s": 59.56,
+              "min_radius_m": 0.867,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.525,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 346.06,
+              "laptime_s": 59.66,
+              "min_radius_m": 0.937,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.34,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 342.2,
+              "laptime_s": 59.32,
+              "min_radius_m": 0.549,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.164,
+              "usable": false
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 344.12,
+              "laptime_s": 59.45,
+              "min_radius_m": 0.67,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.549,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 346.12,
+              "laptime_s": 59.83,
+              "min_radius_m": 1.229,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.362,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Nuerburgring_w220": {
+      "variant": "Nuerburgring_w220",
+      "track": "Nuerburgring",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 443.06,
+              "laptime_s": 75.35,
+              "min_radius_m": 1.105,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.287,
+              "usable": true
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 445.56,
+              "laptime_s": 75.6,
+              "min_radius_m": 1.142,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.784,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 448.1,
+              "laptime_s": 75.88,
+              "min_radius_m": 1.54,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "min_wall_clearance_m": 0.498,
+              "usable": true
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 443.1,
+              "laptime_s": 75.36,
+              "min_radius_m": 0.899,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.332,
+              "usable": true
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 445.68,
+              "laptime_s": 75.67,
+              "min_radius_m": 1.151,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.814,
+              "usable": true
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 448.02,
+              "laptime_s": 75.94,
+              "min_radius_m": 1.528,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "min_wall_clearance_m": 0.513,
+              "usable": true
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Oschersleben_w120": {
+      "variant": "Oschersleben_w120",
+      "track": "Oschersleben",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 140.68,
+              "laptime_s": 27.13,
+              "min_radius_m": 0.711,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.047
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 141.94,
+              "laptime_s": 27.38,
+              "min_radius_m": 1.152,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.243
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 142.92,
+              "laptime_s": 27.17,
+              "min_radius_m": 1.157,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.023
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 140.36,
+              "laptime_s": 26.53,
+              "min_radius_m": 1.032,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.023
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 141.62,
+              "laptime_s": 26.89,
+              "min_radius_m": 0.95,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.136
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 142.65,
+              "laptime_s": 27.08,
+              "min_radius_m": 1.034,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.004
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Oschersleben_w170": {
+      "variant": "Oschersleben_w170",
+      "track": "Oschersleben",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 199.64,
+              "laptime_s": 36.01,
+              "min_radius_m": 1.17,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.268
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 201.07,
+              "laptime_s": 35.89,
+              "min_radius_m": 1.268,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.447
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 202.56,
+              "laptime_s": 35.82,
+              "min_radius_m": 1.551,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.162
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 199.53,
+              "laptime_s": 35.72,
+              "min_radius_m": 1.376,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.202
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 201.18,
+              "laptime_s": 36.08,
+              "min_radius_m": 1.276,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.514
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 202.8,
+              "laptime_s": 36.16,
+              "min_radius_m": 1.147,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.287
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Oschersleben_w220": {
+      "variant": "Oschersleben_w220",
+      "track": "Oschersleben",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 258.47,
+              "laptime_s": 44.44,
+              "min_radius_m": 1.513,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.416
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 260.51,
+              "laptime_s": 44.73,
+              "min_radius_m": 1.523,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.725
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 262.48,
+              "laptime_s": 45.27,
+              "min_radius_m": 1.584,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.442
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 258.56,
+              "laptime_s": 44.47,
+              "min_radius_m": 1.311,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.416
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 260.46,
+              "laptime_s": 44.67,
+              "min_radius_m": 1.445,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.742
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 262.44,
+              "laptime_s": 44.93,
+              "min_radius_m": 1.226,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.416
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Sepang_w120": {
+      "variant": "Sepang_w120",
+      "track": "Sepang",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 263.52,
+              "laptime_s": 47.6,
+              "min_radius_m": 0.569,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.103
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 264.93,
+              "laptime_s": 47.83,
+              "min_radius_m": 0.389,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.342
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 265.98,
+              "laptime_s": 47.92,
+              "min_radius_m": 0.426,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.038
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 263.49,
+              "laptime_s": 47.71,
+              "min_radius_m": 0.649,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.064
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 264.84,
+              "laptime_s": 47.76,
+              "min_radius_m": 0.552,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.329
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 266.06,
+              "laptime_s": 47.96,
+              "min_radius_m": 0.396,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.038
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Sepang_w170": {
+      "variant": "Sepang_w170",
+      "track": "Sepang",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 374.0,
+              "laptime_s": 65.42,
+              "min_radius_m": 1.017,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.346
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 375.77,
+              "laptime_s": 65.35,
+              "min_radius_m": 0.683,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.685
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 377.65,
+              "laptime_s": 65.84,
+              "min_radius_m": 0.756,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.355
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 374.0,
+              "laptime_s": 65.37,
+              "min_radius_m": 1.021,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.4
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 375.85,
+              "laptime_s": 65.54,
+              "min_radius_m": 0.968,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.657
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 377.61,
+              "laptime_s": 65.63,
+              "min_radius_m": 0.625,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.337
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Sepang_w220": {
+      "variant": "Sepang_w220",
+      "track": "Sepang",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 484.28,
+              "laptime_s": 82.9,
+              "min_radius_m": 1.591,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.562
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 486.67,
+              "laptime_s": 83.38,
+              "min_radius_m": 1.147,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.955
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 488.98,
+              "laptime_s": 83.49,
+              "min_radius_m": 0.723,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.539
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 484.24,
+              "laptime_s": 82.91,
+              "min_radius_m": 1.322,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.539
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 486.48,
+              "laptime_s": 83.04,
+              "min_radius_m": 1.14,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.907
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 489.0,
+              "laptime_s": 83.58,
+              "min_radius_m": 1.065,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.562
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Shanghai_w120": {
+      "variant": "Shanghai_w120",
+      "track": "Shanghai",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 266.67,
+              "laptime_s": 48.22,
+              "min_radius_m": 0.307,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.037
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 267.99,
+              "laptime_s": 48.14,
+              "min_radius_m": 0.528,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.275
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 269.96,
+              "laptime_s": 48.59,
+              "min_radius_m": 0.288,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.079
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 266.8,
+              "laptime_s": 47.92,
+              "min_radius_m": 0.259,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.027
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 268.59,
+              "laptime_s": 48.48,
+              "min_radius_m": 0.293,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.283
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 270.43,
+              "laptime_s": 48.85,
+              "min_radius_m": 0.353,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.127
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Shanghai_w170": {
+      "variant": "Shanghai_w170",
+      "track": "Shanghai",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 378.75,
+              "laptime_s": 66.18,
+              "min_radius_m": 0.309,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.252
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 381.32,
+              "laptime_s": 66.45,
+              "min_radius_m": 0.334,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.664
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 384.3,
+              "laptime_s": 67.0,
+              "min_radius_m": 0.396,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.383
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 378.65,
+              "laptime_s": 66.25,
+              "min_radius_m": 0.719,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.212
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 381.57,
+              "laptime_s": 66.56,
+              "min_radius_m": 0.292,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.673
+            }
+          ],
+          "error": "RuntimeError: At least two spline normals cross; check the input or increase the smoothing factor"
+        }
+      }
+    },
+    "Shanghai_w220": {
+      "variant": "Shanghai_w220",
+      "track": "Shanghai",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 490.38,
+              "laptime_s": 83.97,
+              "min_radius_m": 0.504,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.487
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 493.84,
+              "laptime_s": 84.53,
+              "min_radius_m": 0.467,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.915
+            }
+          ],
+          "error": "RuntimeError: At least two spline normals cross; check the input or increase the smoothing factor"
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 490.47,
+              "laptime_s": 84.07,
+              "min_radius_m": 0.329,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.513
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 493.77,
+              "laptime_s": 84.36,
+              "min_radius_m": 0.437,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.941
+            }
+          ],
+          "error": "RuntimeError: At least two spline normals cross; check the input or increase the smoothing factor"
+        }
+      }
+    },
+    "Sochi_w120": {
+      "variant": "Sochi_w120",
+      "track": "Sochi",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 250.53,
+              "laptime_s": 45.64,
+              "min_radius_m": 0.576,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.085
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 251.58,
+              "laptime_s": 45.6,
+              "min_radius_m": 0.75,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.146
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 253.11,
+              "laptime_s": 45.9,
+              "min_radius_m": 0.668,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.048
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 250.2,
+              "laptime_s": 45.47,
+              "min_radius_m": 0.649,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.104
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 251.58,
+              "laptime_s": 45.66,
+              "min_radius_m": 0.746,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.1
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 253.08,
+              "laptime_s": 45.9,
+              "min_radius_m": 0.686,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.011
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Sochi_w170": {
+      "variant": "Sochi_w170",
+      "track": "Sochi",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 355.62,
+              "laptime_s": 62.58,
+              "min_radius_m": 0.737,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.113
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 357.2,
+              "laptime_s": 62.78,
+              "min_radius_m": 0.966,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.402
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 359.38,
+              "laptime_s": 63.09,
+              "min_radius_m": 0.825,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.178
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 355.59,
+              "laptime_s": 62.55,
+              "min_radius_m": 0.662,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.191
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 357.64,
+              "laptime_s": 62.78,
+              "min_radius_m": 0.675,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.546
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 359.32,
+              "laptime_s": 63.04,
+              "min_radius_m": 0.671,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.178
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Sochi_w220": {
+      "variant": "Sochi_w220",
+      "track": "Sochi",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 460.53,
+              "laptime_s": 79.51,
+              "min_radius_m": 0.667,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.36
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 462.83,
+              "laptime_s": 79.5,
+              "min_radius_m": 0.704,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.751
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 465.43,
+              "laptime_s": 80.01,
+              "min_radius_m": 0.851,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.394
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 460.7,
+              "laptime_s": 79.86,
+              "min_radius_m": 0.861,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.326
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 463.03,
+              "laptime_s": 79.99,
+              "min_radius_m": 1.001,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.683
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 465.4,
+              "laptime_s": 80.11,
+              "min_radius_m": 1.052,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.275
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "YasMarina_w120": {
+      "variant": "YasMarina_w120",
+      "track": "YasMarina",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 213.03,
+              "laptime_s": 41.03,
+              "min_radius_m": 0.065,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.15
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 213.25,
+              "laptime_s": 41.01,
+              "min_radius_m": 0.136,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.038
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 215.76,
+              "laptime_s": 41.66,
+              "min_radius_m": 0.262,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.038
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 213.32,
+              "laptime_s": 41.32,
+              "min_radius_m": 0.08,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.15
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 213.21,
+              "laptime_s": 41.07,
+              "min_radius_m": 0.173,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.11
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 214.75,
+              "laptime_s": 41.29,
+              "min_radius_m": 0.338,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.11
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "YasMarina_w170": {
+      "variant": "YasMarina_w170",
+      "track": "YasMarina",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 302.67,
+              "laptime_s": 55.65,
+              "min_radius_m": 0.132,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.037
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 305.11,
+              "laptime_s": 56.18,
+              "min_radius_m": 0.326,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.268
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 306.37,
+              "laptime_s": 56.2,
+              "min_radius_m": 0.535,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.087
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 302.78,
+              "laptime_s": 55.65,
+              "min_radius_m": 0.181,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.071
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 304.82,
+              "laptime_s": 55.93,
+              "min_radius_m": 0.412,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.246
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 306.41,
+              "laptime_s": 56.21,
+              "min_radius_m": 0.751,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.087
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "YasMarina_w220": {
+      "variant": "YasMarina_w220",
+      "track": "YasMarina",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 392.47,
+              "laptime_s": 70.16,
+              "min_radius_m": 0.283,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.069
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 395.28,
+              "laptime_s": 70.61,
+              "min_radius_m": 0.63,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.508
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 397.79,
+              "laptime_s": 71.09,
+              "min_radius_m": 0.704,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.26
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 392.6,
+              "laptime_s": 70.11,
+              "min_radius_m": 0.324,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.055
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 395.32,
+              "laptime_s": 70.61,
+              "min_radius_m": 0.663,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.493
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 397.63,
+              "laptime_s": 70.94,
+              "min_radius_m": 0.738,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.26
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Zandvoort_w120": {
+      "variant": "Zandvoort_w120",
+      "track": "Zandvoort",
+      "target_width_m": 1.2,
+      "original_width_m": 2.2,
+      "scale": 0.54545,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 209.7,
+              "laptime_s": 37.74,
+              "min_radius_m": 1.201,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": -0.122
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 211.11,
+              "laptime_s": 38.17,
+              "min_radius_m": 0.843,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.145
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 212.32,
+              "laptime_s": 38.11,
+              "min_radius_m": 0.537,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": false,
+              "min_wall_clearance_m": 0.134
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 209.91,
+              "laptime_s": 37.82,
+              "min_radius_m": 0.897,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": -0.039
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 211.11,
+              "laptime_s": 38.0,
+              "min_radius_m": 0.897,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.184
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 212.32,
+              "laptime_s": 38.28,
+              "min_radius_m": 0.636,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": false,
+              "min_wall_clearance_m": 0.145
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Zandvoort_w170": {
+      "variant": "Zandvoort_w170",
+      "track": "Zandvoort",
+      "target_width_m": 1.7,
+      "original_width_m": 2.2,
+      "scale": 0.77273,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 297.87,
+              "laptime_s": 51.51,
+              "min_radius_m": 0.592,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.276
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 299.48,
+              "laptime_s": 51.85,
+              "min_radius_m": 0.946,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.482
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 301.16,
+              "laptime_s": 52.38,
+              "min_radius_m": 1.288,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.307
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 297.93,
+              "laptime_s": 51.65,
+              "min_radius_m": 0.669,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.245
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 299.54,
+              "laptime_s": 51.91,
+              "min_radius_m": 0.777,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.536
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 301.18,
+              "laptime_s": 52.22,
+              "min_radius_m": 1.132,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.324
+            }
+          ],
+          "error": null
+        }
+      }
+    },
+    "Zandvoort_w220": {
+      "variant": "Zandvoort_w220",
+      "track": "Zandvoort",
+      "target_width_m": 2.2,
+      "original_width_m": 2.2,
+      "scale": 1.0,
+      "min_allowed_radius_m": 0.582,
+      "directions": {
+        "cw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_cw",
+              "length_m": 385.69,
+              "laptime_s": 65.42,
+              "min_radius_m": 0.981,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.35
+            },
+            {
+              "raceline": "raceline1_cw",
+              "length_m": 387.71,
+              "laptime_s": 65.66,
+              "min_radius_m": 1.12,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.729
+            },
+            {
+              "raceline": "raceline2_cw",
+              "length_m": 389.88,
+              "laptime_s": 66.17,
+              "min_radius_m": 1.607,
+              "max_speed_mps": 6.0,
+              "measured_direction": "cw",
+              "usable": true,
+              "min_wall_clearance_m": 0.483
+            }
+          ],
+          "error": null
+        },
+        "ccw": {
+          "lanes": [
+            {
+              "raceline": "raceline0_ccw",
+              "length_m": 385.69,
+              "laptime_s": 65.41,
+              "min_radius_m": 0.962,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.361
+            },
+            {
+              "raceline": "raceline1_ccw",
+              "length_m": 387.83,
+              "laptime_s": 65.95,
+              "min_radius_m": 1.289,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.748
+            },
+            {
+              "raceline": "raceline2_ccw",
+              "length_m": 389.83,
+              "laptime_s": 66.18,
+              "min_radius_m": 1.237,
+              "max_speed_mps": 6.0,
+              "measured_direction": "ccw",
+              "usable": true,
+              "min_wall_clearance_m": 0.483
+            }
+          ],
+          "error": null
+        }
+      }
+    }
+  }
+}

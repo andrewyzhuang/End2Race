@@ -1,0 +1,6 @@
+image: Example_w170_map.png
+resolution: 0.04413463114837805
+origin: [-55.23434096448994, -31.336226919673624, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

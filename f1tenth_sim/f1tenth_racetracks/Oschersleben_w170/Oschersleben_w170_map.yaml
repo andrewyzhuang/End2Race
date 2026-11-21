@@ -1,0 +1,6 @@
+image: Oschersleben_w170_map.png
+resolution: 0.03318863636363637
+origin: [-42.55911540329461, -25.947285952149095, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

@@ -1,0 +1,6 @@
+image: Hockenheim_w170_map.png
+resolution: 0.05178818181818183
+origin: [-15.385937962943887, -39.31345045213342, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

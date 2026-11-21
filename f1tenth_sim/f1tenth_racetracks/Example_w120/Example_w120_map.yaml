@@ -1,0 +1,6 @@
+image: Example_w120_map.png
+resolution: 0.031153857281208036
+origin: [-38.98894656316937, -22.11968959035785, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

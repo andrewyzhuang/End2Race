@@ -1,0 +1,6 @@
+image: Sochi_w120_map.png
+resolution: 0.04636909090909092
+origin: [-85.25294016970311, -65.93307395027837, 0.0]
+negate: 0
+occupied_thresh: 0.45
+free_thresh: 0.196

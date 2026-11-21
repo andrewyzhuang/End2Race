@@ -25,7 +25,8 @@ expert:
   minimum_terminal_speed: 1.0
   max_acceleration: 7.51
   max_lateral_acceleration: 10.29
-  max_curvature: 1.35
+  # retrain-v1: tan(max steer) / wheelbase = tan(0.5236) / 0.28 = 2.06 (was tan(0.4189) / 0.3302 = 1.35)
+  max_curvature: 2.06
   soft_collision_clearance: 0.5
   collision_cost_weight: 5.0
   collision_cost_power: 2.0
@@ -162,3 +163,64 @@ eval_multi:
   - 0.4
   - 0.6
   - 0.8
+
+# ----------------------------------------------------------------------------
+# Retraining for the NeoRacer (retrain-v1)
+# Single car, pure pursuit expert on generated racelines, no opponents.
+# Pipeline: retrain/run_all.sh (make_tracks -> collect -> train -> export).
+# ----------------------------------------------------------------------------
+retrain:
+  version: v1
+  seed: 2026
+  # Parallel simulation processes for make_tracks and collect (about 0.5 GB RAM each, estimate).
+  workers: 8
+  dataset_dir: dataset_retrain
+  tracks:
+  - BrandsHatch
+  - Example
+  - Oschersleben
+  - Sepang
+  - Shanghai
+  - Sochi
+  - YasMarina
+  - Zandvoort
+  # Unseen tracks for retrain/eval.py (never used for collection).
+  eval_tracks: [Austin, Hockenheim, MoscowRaceway, Nuerburgring]
+  # Tracks are uniformly shrunk (map resolution x target / original width).
+  target_widths_m: [2.2, 1.7, 1.2]
+  directions: [cw, ccw]
+  # Drop a variant if its tightest raceline radius < margin * wheelbase / tan(max steer).
+  min_turn_radius_margin: 1.2
+  # Drop a lane if its raceline passes closer than this to a wall (car edge to wall, m).
+  # Added after the pilot: on 1.2 m tracks the side lane racelines came within 0.02 m of the wall.
+  min_wall_clearance_m: 0.15
+  # Episodes per track variant = num_startpoints x len(speed_scales).
+  # Start point i uses raceline (i mod 3), so all three lanes are used (a dropped lane falls back to the center lane).
+  num_startpoints: 40
+  speed_scales: [0.5, 0.75, 1.0]
+  # Initial speed = uniform(range) x raceline speed at the start point (0 = standing start).
+  initial_speed_fraction_range: [0.0, 1.0]
+  sim_duration: 8.0
+  pure_pursuit:
+    min_lookahead: 0.5
+    max_lookahead: 2.0
+    lookahead_speed_scale: 6.0
+    steering_gain: 0.8
+    interpolation_points: 10
+    reference_points: 15
+  randomization:
+    # Friction is sampled per episode. Kept near the ggv grip (10 m/s^2 ~ mu 1.02),
+    # otherwise the expert drives faster than the grip allows and crashes.
+    mu_range: [0.95, 1.10]
+    # Delay between the expert action and the simulator, in control steps (1 step = 33 ms).
+    action_delay_steps: [0, 1]
+    # LiDAR noise is added to the recorded 180 beams for this fraction of episodes.
+    lidar_noise_probability: 0.5
+    lidar_noise_std_range_m: [0.0, 0.03]
+    lidar_dropout_range: [0.0, 0.05]
+  train:
+    num_epochs: 300
+    learning_rate: 0.0001
+    batch_size: 256
+    speed_loss_weight: 0.05
+    gradient_clip_norm: 1.0

@@ -1,0 +1,91 @@
+Collecting 3600 episodes into /home/kaipo/GRAD/MTL/Code/End2Race_Zhijie/dataset_retrain with 8 workers
+  50/3600 done, collisions=7, errors=0
+  100/3600 done, collisions=10, errors=0
+  150/3600 done, collisions=19, errors=0
+  200/3600 done, collisions=20, errors=0
+  250/3600 done, collisions=31, errors=0
+  300/3600 done, collisions=31, errors=0
+  350/3600 done, collisions=31, errors=0
+  400/3600 done, collisions=31, errors=0
+  450/3600 done, collisions=31, errors=0
+  500/3600 done, collisions=31, errors=0
+  550/3600 done, collisions=31, errors=0
+  600/3600 done, collisions=31, errors=0
+  650/3600 done, collisions=31, errors=0
+  700/3600 done, collisions=31, errors=0
+  750/3600 done, collisions=36, errors=0
+  800/3600 done, collisions=41, errors=0
+  850/3600 done, collisions=49, errors=0
+  900/3600 done, collisions=53, errors=0
+  950/3600 done, collisions=61, errors=0
+  1000/3600 done, collisions=64, errors=0
+  1050/3600 done, collisions=67, errors=0
+  1100/3600 done, collisions=70, errors=0
+  1150/3600 done, collisions=70, errors=0
+  1200/3600 done, collisions=71, errors=0
+  1250/3600 done, collisions=95, errors=0
+  1300/3600 done, collisions=102, errors=0
+  1350/3600 done, collisions=108, errors=0
+  1400/3600 done, collisions=110, errors=0
+  1450/3600 done, collisions=113, errors=0
+  1500/3600 done, collisions=114, errors=0
+  1550/3600 done, collisions=116, errors=0
+  1600/3600 done, collisions=116, errors=0
+  1650/3600 done, collisions=116, errors=0
+  1700/3600 done, collisions=116, errors=0
+  1750/3600 done, collisions=116, errors=0
+  1800/3600 done, collisions=116, errors=0
+  1850/3600 done, collisions=122, errors=0
+  1900/3600 done, collisions=125, errors=0
+  1950/3600 done, collisions=128, errors=0
+  2000/3600 done, collisions=130, errors=0
+  2050/3600 done, collisions=130, errors=0
+  2100/3600 done, collisions=132, errors=0
+  2150/3600 done, collisions=132, errors=0
+  2200/3600 done, collisions=132, errors=0
+  2250/3600 done, collisions=132, errors=0
+  2300/3600 done, collisions=132, errors=0
+  2350/3600 done, collisions=136, errors=0
+  2400/3600 done, collisions=140, errors=0
+  2450/3600 done, collisions=150, errors=0
+  2500/3600 done, collisions=155, errors=0
+  2550/3600 done, collisions=160, errors=0
+  2600/3600 done, collisions=160, errors=0
+  2650/3600 done, collisions=163, errors=0
+  2700/3600 done, collisions=165, errors=0
+  2750/3600 done, collisions=166, errors=0
+  2800/3600 done, collisions=166, errors=0
+  2850/3600 done, collisions=174, errors=0
+  2900/3600 done, collisions=178, errors=0
+  2950/3600 done, collisions=183, errors=0
+  3000/3600 done, collisions=185, errors=0
+  3050/3600 done, collisions=204, errors=0
+  3100/3600 done, collisions=215, errors=0
+  3150/3600 done, collisions=221, errors=0
+  3200/3600 done, collisions=225, errors=0
+  3250/3600 done, collisions=225, errors=0
+  3300/3600 done, collisions=229, errors=0
+  3350/3600 done, collisions=230, errors=0
+  3400/3600 done, collisions=230, errors=0
+  3450/3600 done, collisions=230, errors=0
+  3500/3600 done, collisions=230, errors=0
+  3550/3600 done, collisions=231, errors=0
+  3600/3600 done, collisions=231, errors=0
+{
+  "episodes": 3600,
+  "success": 3369,
+  "collision": 231,
+  "success_rate_percent": 93.6,
+  "process_failures": 0
+}
+  delay=0              {'episodes': 1752, 'success': 1673, 'collision': 79, 'success_rate_percent': 95.5}
+  delay=1              {'episodes': 1848, 'success': 1696, 'collision': 152, 'success_rate_percent': 91.8}
+  direction=ccw        {'episodes': 1800, 'success': 1683, 'collision': 117, 'success_rate_percent': 93.5}
+  direction=cw         {'episodes': 1800, 'success': 1686, 'collision': 114, 'success_rate_percent': 93.7}
+  speed_scale=0.5      {'episodes': 1200, 'success': 1186, 'collision': 14, 'success_rate_percent': 98.8}
+  speed_scale=0.75     {'episodes': 1200, 'success': 1146, 'collision': 54, 'success_rate_percent': 95.5}
+  speed_scale=1.0      {'episodes': 1200, 'success': 1037, 'collision': 163, 'success_rate_percent': 86.4}
+  width=120            {'episodes': 480, 'success': 380, 'collision': 100, 'success_rate_percent': 79.2}
+  width=170            {'episodes': 1440, 'success': 1344, 'collision': 96, 'success_rate_percent': 93.3}
+  width=220            {'episodes': 1680, 'success': 1645, 'collision': 35, 'success_rate_percent': 97.9}
+Summary: /home/kaipo/GRAD/MTL/Code/End2Race_Zhijie/dataset_retrain/summary.json
